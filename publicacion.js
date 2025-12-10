@@ -33,8 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 caja.appendChild(desc);
 
                 // Agregar la caja al enlace, y el enlace a la grilla
-                enlace.appendChild(caja);
-                grilla.appendChild(enlace);
+                grilla.appendChild(caja);
             });
         })
         .catch(error => {
@@ -42,3 +41,4 @@ document.addEventListener('DOMContentLoaded', function () {
             console.error('Error al obtener los datos:', error);
         });
 });
+
